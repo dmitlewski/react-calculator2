@@ -70,7 +70,7 @@ export function App() {
   }
 
   function deleteLastEntry(){
-    const newList = [...displayContent]
+    const newList = [...displayContent] // so wandelt man einen String in ein array
     // const [_firstItem, ...newList] = displayContent  // <- does not work :(
     // const lastElement = newList.pop(); //macht zwei Sachen: erstellt eine neue Variable (brauchen wier hier nicht) mit dem letzten Eintrag des array und nimmt es aus dem array raus
     newList.pop()  // side effect -> verändert newList in place
