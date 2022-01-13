@@ -4,8 +4,6 @@ import './App.css';
 
 export function App() {
 
-
-
   /*
   const[string, setString] =useState(""); 
   const[array, setArray] =useState([]); 
@@ -32,7 +30,7 @@ export function App() {
   } 
 
 
-
+  
   function handleInput(input){
     //abfrage - keine doppelten operatoren
     if(operators.includes(input) && operators.includes(displayContent.slice(-1)) ) 
