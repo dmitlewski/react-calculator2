@@ -30,7 +30,7 @@ export function App() {
   } 
 
 
-  
+
   function handleInput(input){
     //abfrage - keine doppelten operatoren
     if(operators.includes(input) && operators.includes(displayContent.slice(-1)) ) 
@@ -45,7 +45,7 @@ export function App() {
   }
 
   function deleteLastEntry(){
-    const newList = [...displayContent]
+    const newList = [...displayContent]// so wandelt man einen String in ein array
     const lastElement = newList.pop(); //macht zwei Sachen: erstellt eine neue Variable (brauchen wier hier nicht) mit dem letzten Eintrag des array und nimmt es aus dem array raus
     setDisplayContent(newList);
   }
